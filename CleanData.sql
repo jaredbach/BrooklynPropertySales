@@ -1,4 +1,4 @@
--- Drop DuplicatE Table if Necesary
+-- Drop Duplicate Table if Necesary
 BEGIN
   EXECUTE IMMEDIATE 'DROP TABLE BROOKLYN_COPY';
 EXCEPTION
